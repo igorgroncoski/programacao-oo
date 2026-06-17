@@ -1,0 +1,8 @@
+class Passaro extends Animal {
+  Passaro(String nome) : super(nome);
+
+  @override
+  void emitirSom() {
+    print('Piu piu');
+  }
+}
